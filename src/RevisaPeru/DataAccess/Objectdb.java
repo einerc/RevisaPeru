@@ -1,7 +1,7 @@
 /*
  * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * To change this template file, choose Tools | Templates meditran_admin
+ * and open the template in the editor. v3@0;@pvqTgn
  */
 package RevisaPeru.DataAccess;
 
@@ -29,7 +29,7 @@ public class Objectdb {
     {
         try {
             DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-            conexion = DriverManager.getConnection("jdbc:mysql://meditranperu.com:3306/meditran_RevisaTest","meditran_admin","v3@0;@pvqTgn");
+            conexion = DriverManager.getConnection("jdbc:mysql://meditranperu.com:3306/meditran_RevisaTest","33","''''");
             st=conexion.createStatement();
         } catch (SQLException ex) 
         {
